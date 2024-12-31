@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.battery-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.battery-table th,
+.battery-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.battery-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.battery-table td {
+  background-color: #fff;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

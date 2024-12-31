@@ -1,0 +1,40 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.genre-filter {
+  margin-bottom: 20px;
+}
+
+#genre-select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.movie-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.movie-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}

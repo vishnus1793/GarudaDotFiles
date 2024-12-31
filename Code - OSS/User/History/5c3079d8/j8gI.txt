@@ -1,0 +1,4 @@
+Flask==2.3.2
+h5py==3.9.0
+numpy==1.24.3  # Needed if your model processing relies on numpy
+requests==2.32.3  # Only if you’re making HTTP requests

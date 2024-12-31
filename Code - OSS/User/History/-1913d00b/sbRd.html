@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Monitor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .battery-status {
+            text-align: center;
+            font-size: 24px;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="battery-status">
+        <p id="battery-label">Battery: Loading...</p>
+    </div>
+
+    <script>
+        function updateBatteryStatus() {
+            fetch('/battery')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.battery !== undefined) {
+                        document.getElementById('battery-label').innerText = `Battery: ${data.battery}%`;
+                    } else {
+                        document.getElementById('battery-label').innerText = "Battery info unavailable";
+                    }
+                })
+                .catch(err => {
+                    console.error('Error fetching battery status:', err);
+                    document.getElementById('battery-label').innerText = "Error fetching battery status";
+                });
+        }
+
+        // Update battery status every second
+        setInterval(updateBatteryStatus, 1000);
+    </script>
+</body>
+</html>

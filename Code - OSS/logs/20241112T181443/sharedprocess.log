@@ -1,0 +1,8 @@
+2024-11-12 18:14:46.374 [info] Deleted uninstalled extension from disk ms-python.python /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.0-universal
+2024-11-12 18:14:46.423 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.0-universal.-5bc9d9a6.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.0-universal.-5bc9d9a6.vsctmp'
+    at hm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

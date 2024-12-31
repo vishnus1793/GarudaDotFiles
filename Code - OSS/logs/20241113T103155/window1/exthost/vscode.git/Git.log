@@ -1,0 +1,53 @@
+2024-11-13 10:31:58.149 [info] [main] Log level: Info
+2024-11-13 10:31:58.149 [info] [main] Validating found git in: "git"
+2024-11-13 10:31:58.149 [info] [main] Using git "2.47.0" from "git"
+2024-11-13 10:31:58.149 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-13 10:31:58.149 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-13 10:31:58.149 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-11-13 10:31:58.149 [info] [Model][openRepository] Opened repository: /home/vishnu/Documents/Book_xplorer
+2024-11-13 10:31:58.157 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-13 10:31:58.158 [info] > git config --get commit.template [5ms]
+2024-11-13 10:31:58.182 [info] > git rev-parse --show-toplevel [20ms]
+2024-11-13 10:31:58.182 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-13 10:31:58.189 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-13 10:31:58.193 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vishnu/Documents/Book_xplorer/.git/refs/remotes/origin/main'
+2024-11-13 10:31:58.193 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-11-13 10:31:58.201 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-13 10:31:58.203 [info] > git status -z -uall [7ms]
+2024-11-13 10:31:58.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-11-13 10:31:58.218 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-11-13 10:31:58.218 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-13 10:31:58.221 [info] > git config --get commit.template [8ms]
+2024-11-13 10:31:58.245 [info] > git reflog main --grep-reflog=branch: Created from *. [24ms]
+2024-11-13 10:31:58.250 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-11-13 10:31:58.253 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-13 10:31:58.256 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vishnu/Documents/Book_xplorer/.git/refs/remotes/origin/main'
+2024-11-13 10:31:58.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2024-11-13 10:31:58.261 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-11-13 10:31:58.267 [info] > git config --local branch.main.vscode-merge-base origin/main [7ms]
+2024-11-13 10:31:58.268 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms] (cancelled)
+2024-11-13 10:31:58.277 [info] > git status -z -uall [13ms] (cancelled)
+2024-11-13 10:31:58.278 [info] > git config --get commit.template [3ms]
+2024-11-13 10:31:58.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-11-13 10:31:58.284 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-11-13 10:31:58.287 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-13 10:31:58.290 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vishnu/Documents/Book_xplorer/.git/refs/remotes/origin/main'
+2024-11-13 10:31:58.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2024-11-13 10:31:58.299 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2024-11-13 10:31:58.303 [info] > git rev-parse refs/remotes/origin/main [13ms]
+2024-11-13 10:31:58.310 [info] > git diff --name-status -z --diff-filter=ADMR bcd63da3935658a624e6d4c891996321be515689...refs/remotes/origin/main [8ms]
+2024-11-13 10:31:58.311 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-13 10:31:58.314 [info] > git status -z -uall [8ms]
+2024-11-13 10:31:58.675 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-13 10:31:59.354 [info] > git config --get commit.template [2ms]
+2024-11-13 10:31:59.358 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-13 10:31:59.361 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vishnu/Documents/Book_xplorer/.git/refs/remotes/origin/main'
+2024-11-13 10:31:59.362 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-13 10:31:59.369 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-13 10:31:59.370 [info] > git status -z -uall [5ms]
+2024-11-13 10:32:25.615 [info] > git config --get commit.template [7ms]
+2024-11-13 10:32:25.616 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-13 10:32:25.621 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vishnu/Documents/Book_xplorer/.git/refs/remotes/origin/main'
+2024-11-13 10:32:25.623 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-13 10:32:25.634 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-13 10:32:25.636 [info] > git status -z -uall [8ms]

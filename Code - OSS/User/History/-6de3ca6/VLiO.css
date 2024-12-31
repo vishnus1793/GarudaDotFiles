@@ -1,0 +1,67 @@
+/* PasswordManager.css */
+
+.password-manager-container {
+  padding: 20px;
+}
+
+.password-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.password-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.password-item .password {
+  font-size: 16px;
+}
+
+.password-item button {
+  padding: 6px 10px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.password-item button:hover {
+  background-color: #3b78c3;
+}
+
+.add-password-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-password-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-password-form button {
+  padding: 10px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-password-form button:hover {
+  background-color: #3b78c3;
+}

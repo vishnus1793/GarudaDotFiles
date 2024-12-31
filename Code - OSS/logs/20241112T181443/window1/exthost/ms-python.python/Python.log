@@ -1,0 +1,100 @@
+2024-11-12 18:14:47.578 [warning] Dir "/home/vishnu/Documents/BDA/bda/.pixi/envs" is not watchable (directory does not exist)
+2024-11-12 18:14:47.578 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16578)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:46120)
+	at new v (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:908863)
+	at ge (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1758437)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761801
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761829
+	at Se (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761896)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1762376
+	at we (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1762317)
+	at Pe (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1762351)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1759590
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761195
+	at Array.reduce (<anonymous>)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761167
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761449
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761829
+	at Se (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761896)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1762376
+	at we (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1762317)
+	at Pe (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1762351)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1759590
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1789260
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1789281
+	at e._get (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1788294)
+	at e._getButThrowIfAsync (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1788354)
+	at e.get (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1784063)
+	at e.dynamicValue (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1773796)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1759973
+	at Ee (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1760229)
+	at Se (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761945)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1762376
+	at we (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1762317)
+	at Pe (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1762351)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1759590
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1759524
+	at Array.map (<anonymous>)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1759495
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761195
+	at Array.reduce (<anonymous>)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761167
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761449
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761829
+	at Se (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1761896)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1762376
+	at we (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1762317)
+	at Pe (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1762351)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1759590
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1789260
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1789281
+	at e._get (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1788294)
+	at e._getButThrowIfAsync (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1788354)
+	at e.get (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:1784063)
+	at a.get (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:524841)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:440433
+	at async t.activateComponents (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:438713)
+	at async /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:2716169
+	at async e (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:2715701)
+	at async B0.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+	at async B0.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+	at async B0.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:3866)]
+2024-11-12 18:14:47.578 [info] Python interpreter path: ./myenv/bin/python
+2024-11-12 18:14:47.592 [info] > pyenv which python
+2024-11-12 18:14:47.592 [info] cwd: .
+2024-11-12 18:14:47.663 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 194ms, has a falsy return value, Arg 1: <Uri:/home/vishnu/Documents/BDA/bda/package.json>, Arg 2: {"started":1731415487281}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16578)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:39418)
+  	at C.activate (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:944726)
+  	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:2447)]
+]
+2024-11-12 18:14:47.664 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16578)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:39418)
+	at C.activate (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:944726)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:2447)]
+2024-11-12 18:14:47.664 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16578)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:39418)
+	at C.activate (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:944726)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.1-universal/out/client/extension.js:2:2447)]
+2024-11-12 18:14:49.297 [info] Starting Jedi language server for bda.
+2024-11-12 18:14:49.810 [info] > conda info --json
+2024-11-12 18:14:51.581 [info] Discover tests for workspace name: bda - uri: /home/vishnu/Documents/BDA/bda/main.py

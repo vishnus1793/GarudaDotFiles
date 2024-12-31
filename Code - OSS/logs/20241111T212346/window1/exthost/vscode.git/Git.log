@@ -1,0 +1,28 @@
+2024-11-11 21:23:50.049 [info] [main] Log level: Info
+2024-11-11 21:23:50.049 [info] [main] Validating found git in: "git"
+2024-11-11 21:23:50.049 [info] [main] Using git "2.47.0" from "git"
+2024-11-11 21:23:50.049 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-11 21:23:50.049 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-11 21:23:50.049 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-11-11 21:23:50.049 [info] [Model][openRepository] Opened repository: /home/vishnu
+2024-11-11 21:23:50.049 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-11 21:23:50.050 [info] > git config --get commit.template [6ms]
+2024-11-11 21:23:50.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dotfiles-garuda-hyprland refs/remotes/dotfiles-garuda-hyprland [2ms]
+2024-11-11 21:23:50.087 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-11 21:23:50.659 [info] > git status -z -uall [577ms] (cancelled)
+2024-11-11 21:23:50.659 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-11 21:24:17.306 [info] > git show --textconv :Documents/Rithu/app.py [8ms]
+2024-11-11 21:24:17.308 [info] > git ls-files --stage -- /home/vishnu/Documents/Rithu/app.py [2ms]
+2024-11-11 21:24:17.539 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-11 21:24:38.655 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-11 21:24:59.371 [info] > git show --textconv :Documents/Rithu/templates/index.html [7ms]
+2024-11-11 21:24:59.373 [info] > git ls-files --stage -- /home/vishnu/Documents/Rithu/templates/index.html [2ms]
+2024-11-11 21:24:59.684 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-11 21:25:01.903 [info] > git show --textconv :Documents/Rithu/app.py [8ms]
+2024-11-11 21:25:01.904 [info] > git ls-files --stage -- /home/vishnu/Documents/Rithu/app.py [1ms]
+2024-11-11 21:26:27.069 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-11 21:27:10.397 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-11 21:35:45.998 [info] > git show --textconv :Documents/Rithu/templates/index.html [5ms]
+2024-11-11 21:35:45.999 [info] > git ls-files --stage -- /home/vishnu/Documents/Rithu/templates/index.html [1ms]
+2024-11-11 21:35:51.739 [info] > git show --textconv :Documents/Rithu/app.py [4ms]
+2024-11-11 21:35:51.740 [info] > git ls-files --stage -- /home/vishnu/Documents/Rithu/app.py [1ms]

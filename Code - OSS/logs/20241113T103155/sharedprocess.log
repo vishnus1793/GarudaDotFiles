@@ -1,0 +1,15 @@
+2024-11-13 10:32:03.778 [info] Getting Manifest... ms-python.python
+2024-11-13 10:32:06.475 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.95.1","date":"2024-11-01T17:20:55.708Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/vishnu/.vscode-oss/extensions/extensions.json","path":"/home/vishnu/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-11-13 10:32:11.392 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-11-13 10:32:11.392 [info] Extension signature verification is not done: ms-python.python
+2024-11-13 10:32:11.938 [info] Extracted extension to file:///home/vishnu/.vscode-oss/extensions/ms-python.python-2024.20.0-universal: ms-python.python
+2024-11-13 10:32:11.942 [info] Renamed to /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.20.0-universal
+2024-11-13 10:32:11.952 [info] Marked extension as uninstalled ms-python.python-2024.18.1-universal
+2024-11-13 10:32:11.959 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/vishnu/.vscode-oss/extensions/extensions.json
+2024-11-13 10:32:12.025 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vishnu/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vishnu/.vscode-oss/extensions/extensions.json.vsctmp'
+    at hm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

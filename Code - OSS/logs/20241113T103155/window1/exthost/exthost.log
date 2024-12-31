@@ -1,0 +1,10 @@
+2024-11-13 10:31:57.965 [info] Extension host with pid 7225 started
+2024-11-13 10:31:57.965 [info] Skipping acquiring lock for /home/vishnu/.config/Code - OSS/User/workspaceStorage/a54231d7f8255581de91c639d8d16a42.
+2024-11-13 10:31:58.005 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-13 10:31:58.014 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-13 10:31:58.063 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-13 10:31:58.107 [info] Eager extensions activated
+2024-11-13 10:31:58.117 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 10:31:58.119 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-13 10:31:58.164 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-13 10:31:58.221 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

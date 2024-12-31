@@ -1,0 +1,28 @@
+layout = 3x2
+background = #1d1f21
+button-background = #282a2e
+button-text = #ffffff
+hover-background = #cc6666
+button-border = #000000
+text = #ffffff
+text-size = 18
+
+[shutdown]
+label = Shutdown
+exec = systemctl poweroff
+
+[reboot]
+label = Reboot
+exec = systemctl reboot
+
+[logout]
+label = Logout
+exec = hyprctl dispatch exit
+
+[lock]
+label = Lock
+exec = swaylock
+
+[sleep]
+label = Sleep
+exec = systemctl suspend

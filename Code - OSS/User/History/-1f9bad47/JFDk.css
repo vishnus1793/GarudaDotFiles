@@ -1,0 +1,48 @@
+.code-compiler {
+    position: relative;
+    padding: 20px;
+}
+
+.theme-dropdown {
+    position: absolute;
+    top: 10px; 
+    right: 20px; 
+    z-index: 10; 
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
+/* CodeCompiler.css */
+
+/* Base styles for the editor container */
+.editor-container {
+    border: 2px solid transparent; /* Default border for light theme */
+    border-radius: 4px;
+    transition: border-color 0.3s ease; /* Smooth transition for border color change */
+}
+
+/* Light theme styles */
+.light-theme .editor-container {
+    border-color: #007bff; /* Example outline color for light theme */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Optional shadow for better visibility */
+}
+
+/* Dark theme styles */
+.dark-theme .editor-container {
+    border-color: transparent; /* No border in dark theme */
+}
+
+/* Add any additional styles needed for the output area */
+.output-area {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Simple border for output area */
+    border-radius: 4px;
+    background-color: #f8f9fa; /* Light background for the output area */
+}
+

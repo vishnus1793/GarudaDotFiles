@@ -1,0 +1,55 @@
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+
+
+const QuestionPanel = ({ setQuestionId }) => { 
+  const [question, setQuestion] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchQuestions = async () => {
+      try {
+        const response = await axios.get('http://localhost:5000/questions');
+        if (response.data.length > 0) {
+          setQuestion(response.data[0]); 
+          setQuestionId(response.data[0]._id); 
+        } else {
+          setError('No questions found.');
+        }
+      } catch (err) {
+        setError('Failed to fetch questions.');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchQuestions();
+  }, [setQuestionId]);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>{error}</div>;
+  }
+
+  return (
+    <div>
+      <h2>Question</h2>
+      <p>{question.question}</p>
+      <h3>Test Cases:</h3>
+      <ul>
+        {question.testCases.map((testCase, index) => (
+          <li key={index}>
+            <strong>Input:</strong> {testCase.input} <br />
+            <strong>Expected Output:</strong> {testCase.output.trim()}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default QuestionPanel;

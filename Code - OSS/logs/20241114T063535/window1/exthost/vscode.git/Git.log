@@ -1,0 +1,51 @@
+2024-11-14 06:35:39.101 [info] [main] Log level: Info
+2024-11-14 06:35:39.101 [info] [main] Validating found git in: "git"
+2024-11-14 06:35:39.101 [info] [main] Using git "2.47.0" from "git"
+2024-11-14 06:35:39.101 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-14 06:35:39.101 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-14 06:35:39.101 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2024-11-14 06:35:39.101 [info] [Model][openRepository] Opened repository: /home/vishnu
+2024-11-14 06:35:39.101 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-14 06:35:39.101 [info] > git config --get commit.template [5ms]
+2024-11-14 06:35:39.101 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dotfiles-garuda-hyprland refs/remotes/dotfiles-garuda-hyprland [1ms]
+2024-11-14 06:35:39.116 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-11-14 06:35:39.118 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-14 06:35:39.123 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-14 06:35:39.127 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-11-14 06:35:39.130 [info] [Model][openRepository] Opened repository: /home/vishnu/Documents/Book_xplorer
+2024-11-14 06:35:39.138 [info] > git config --get commit.template [4ms]
+2024-11-14 06:35:39.139 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-14 06:35:39.147 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-14 06:35:39.148 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-11-14 06:35:39.154 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vishnu/Documents/Book_xplorer/.git/refs/remotes/origin/main'
+2024-11-14 06:35:39.155 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-14 06:35:39.158 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-11-14 06:35:39.166 [info] > git rev-parse --show-toplevel [8ms]
+2024-11-14 06:35:39.189 [info] > git status -z -uall [27ms]
+2024-11-14 06:35:39.189 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [24ms]
+2024-11-14 06:35:39.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-11-14 06:35:39.216 [info] > git rev-parse --show-toplevel [28ms]
+2024-11-14 06:35:39.221 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-11-14 06:35:39.224 [info] > git config --get commit.template [11ms]
+2024-11-14 06:35:39.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [26ms]
+2024-11-14 06:35:39.260 [info] > git rev-parse --show-toplevel [40ms]
+2024-11-14 06:35:39.268 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2024-11-14 06:35:39.272 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-14 06:35:39.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-11-14 06:35:39.278 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/vishnu/Documents/Book_xplorer/.git/refs/remotes/origin/main'
+2024-11-14 06:35:39.279 [info] > git diff --name-status -z --diff-filter=ADMR bcd63da3935658a624e6d4c891996321be515689...refs/remotes/origin/main [8ms]
+2024-11-14 06:35:39.280 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-14 06:35:39.286 [info] > git rev-parse --show-toplevel [10ms]
+2024-11-14 06:35:39.290 [info] > git status -z -uall [7ms]
+2024-11-14 06:35:39.290 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-14 06:35:39.291 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-14 06:35:39.291 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-14 06:35:39.657 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-14 06:35:39.658 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-14 06:35:39.975 [info] > git status -z -uall [870ms] (cancelled)
+2024-11-14 06:35:39.976 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-14 06:35:46.302 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-14 06:35:49.117 [info] > git show --textconv :Documents/Rithu/app.py [8ms]
+2024-11-14 06:35:49.117 [info] > git ls-files --stage -- /home/vishnu/Documents/Rithu/app.py [3ms]
+2024-11-14 06:37:13.115 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-14 06:39:10.651 [info] > git check-ignore -v -z --stdin [1ms]

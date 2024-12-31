@@ -1,0 +1,2 @@
+2024-11-11 21:24:10.798 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/vishnu/.config/Code - OSS/logs/20241109T044049/window1/exthost/vscode.git' failed: No such file or directory (EUNKNOWN) (path: /home/vishnu)
+2024-11-11 21:24:10.798 [error] [File Watcher (universal)] inotify_add_watch on '/home/vishnu/.config/Code - OSS/logs/20241109T044049/window1/exthost/vscode.git' failed: No such file or directory

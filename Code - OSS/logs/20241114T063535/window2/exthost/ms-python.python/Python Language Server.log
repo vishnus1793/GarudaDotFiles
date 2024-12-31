@@ -1,0 +1,26 @@
+2024-11-14 06:44:47.409 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 38 textDocument/documentHighlight DocumentHighlightParams(text_document=TextDocumentIdentifier(uri='file:///home/vishnu/Documents/Rithu/app.py'), position=3:51, work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.20.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.20.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.20.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 383, in highlight
+    names = jedi_script.get_references(*jedi_lines, scope="file")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.20.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (51) is not in a valid range (0-41) for line 4 ('app = Flask(__name__, template_folder="")\n').
+
+2024-11-14 06:44:47.420 [info] [Error - 06:44:47] Request textDocument/documentHighlight failed.
+2024-11-14 06:44:47.420 [info]   Message: ValueError: `column` parameter (51) is not in a valid range (0-41) for line 4 ('app = Flask(__name__, template_folder="")\n').
+  Code: -32603 
+[object Object]
+2024-11-14 06:44:51.001 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "42"
+
+2024-11-14 06:49:14.898 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "54"
+
+2024-11-14 06:49:42.781 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "60"
+
+2024-11-14 06:49:42.782 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "62"
+

@@ -1,0 +1,50 @@
+2024-11-17 17:08:17.902 [info] [main] Log level: Info
+2024-11-17 17:08:17.902 [info] [main] Validating found git in: "git"
+2024-11-17 17:08:17.902 [info] [main] Using git "2.47.0" from "git"
+2024-11-17 17:08:17.902 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-17 17:08:17.902 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-17 17:08:17.902 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-11-17 17:08:17.902 [info] [Model][openRepository] Opened repository: /home/vishnu/Documents/Rithu
+2024-11-17 17:08:17.905 [info] > git rev-parse --show-toplevel [27ms]
+2024-11-17 17:08:17.906 [info] > git config --get commit.template [31ms]
+2024-11-17 17:08:17.923 [info] > git rev-parse --show-toplevel [8ms]
+2024-11-17 17:08:17.933 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-11-17 17:08:17.934 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-17 17:08:17.935 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-17 17:08:17.948 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [0ms]
+2024-11-17 17:08:17.953 [info] > git status -z -uall [10ms]
+2024-11-17 17:08:17.970 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-17 17:08:17.983 [info] > git config --local branch.main.vscode-merge-base [10ms]
+2024-11-17 17:08:17.983 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-17 17:08:17.986 [info] > git config --get commit.template [17ms]
+2024-11-17 17:08:17.998 [info] > git reflog main --grep-reflog=branch: Created from *. [12ms]
+2024-11-17 17:08:18.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-11-17 17:08:18.009 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2024-11-17 17:08:18.009 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-17 17:08:18.009 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-17 17:08:18.019 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2024-11-17 17:08:18.033 [info] > git diff --name-status -z --diff-filter=ADMR aba5ecf484dd342277916292caa1a50b39bb88b6...refs/remotes/origin/main [10ms]
+2024-11-17 17:08:18.034 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-17 17:08:18.038 [info] > git status -z -uall [10ms]
+2024-11-17 17:08:18.176 [info] > git show --textconv :requirements.txt [4ms]
+2024-11-17 17:08:18.177 [info] > git ls-files --stage -- /home/vishnu/Documents/Rithu/requirements.txt [2ms]
+2024-11-17 17:08:18.182 [info] > git cat-file -s 8b42ae090642e19e3e02b4cb0f01ca62019dc0da [1ms]
+2024-11-17 17:08:18.413 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-17 17:08:18.883 [info] > git show --textconv :app.py [16ms]
+2024-11-17 17:08:18.887 [info] > git ls-files --stage -- /home/vishnu/Documents/Rithu/app.py [17ms]
+2024-11-17 17:08:18.892 [info] > git cat-file -s 6077822426340f7c35c164053690d15e9186c38f [2ms]
+2024-11-17 17:08:39.830 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-17 17:08:39.836 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-11-17 17:08:39.838 [info] [Model][openRepository] Opened repository: /home/vishnu
+2024-11-17 17:08:39.843 [info] > git config --get commit.template [1ms]
+2024-11-17 17:08:39.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dotfiles-garuda-hyprland refs/remotes/dotfiles-garuda-hyprland [2ms]
+2024-11-17 17:08:39.865 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-17 17:08:40.150 [info] > git show --textconv :Videos/main.py [5ms]
+2024-11-17 17:08:40.151 [info] > git ls-files --stage -- /home/vishnu/Videos/main.py [1ms]
+2024-11-17 17:08:40.431 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-17 17:08:40.433 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-17 17:08:40.696 [info] > git status -z -uall [840ms] (cancelled)
+2024-11-17 17:08:40.697 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-17 17:21:14.769 [info] > git show --textconv :Videos/battery_monitor/client/index.html [6ms]
+2024-11-17 17:21:14.770 [info] > git ls-files --stage -- /home/vishnu/Videos/battery_monitor/client/index.html [1ms]
+2024-11-17 17:21:15.073 [info] > git check-ignore -v -z --stdin [2ms]

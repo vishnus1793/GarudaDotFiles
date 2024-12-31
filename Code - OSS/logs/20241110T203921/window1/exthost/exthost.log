@@ -1,0 +1,51 @@
+2024-11-10 20:39:24.527 [info] Extension host with pid 34091 started
+2024-11-10 20:39:24.527 [info] Skipping acquiring lock for /home/vishnu/.config/Code - OSS/User/workspaceStorage/1f8089afb94770b9b2c2003fd600da4f.
+2024-11-10 20:39:24.656 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-10 20:39:24.680 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-11-10 20:39:24.896 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2024-11-10 20:39:24.944 [error] Error: spawn /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-11-10 20:39:25.291 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2024-11-10 20:39:25.358 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-11-10 20:39:25.415 [error] Activating extension ms-python.debugpy failed due to an error:
+2024-11-10 20:39:25.415 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16578)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:55601)
+	at t.registerDebugger (/home/vishnu/.vscode-oss/extensions/ms-python.debugpy-2024.12.0-linux-x64/dist/extension.js:2:907336)
+	at e.activate (/home/vishnu/.vscode-oss/extensions/ms-python.debugpy-2024.12.0-linux-x64/dist/extension.js:2:1156364)
+	at pw.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:15214)
+	at pw.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14921)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:13079
+	at async B0.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4447)
+	at async B0.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4410)
+	at async B0.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:3866)
+2024-11-10 20:39:25.434 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-10 20:39:25.436 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-11-10 20:39:25.471 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-10 20:39:25.531 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-10 20:39:25.594 [info] Eager extensions activated
+2024-11-10 20:39:25.627 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-10 20:39:25.629 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-10 20:39:25.818 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-11-10 20:39:26.561 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16578)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:39418)
+	at C.activate (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.0-universal/out/client/extension.js:2:945676)
+	at /home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/vishnu/.vscode-oss/extensions/ms-python.python-2024.18.0-universal/out/client/extension.js:2:2447)
+2024-11-10 20:39:30.631 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-10 20:39:30.638 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-10 20:39:30.648 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-11-10 20:39:34.189 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-11-10 20:39:35.245 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-11-10 20:46:45.769 [warning] [Decorations] CAPPING events from decorations provider vscode.git 863
+2024-11-10 20:46:51.392 [warning] [Decorations] CAPPING events from decorations provider vscode.git 863
+2024-11-10 20:48:36.928 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2426
+2024-11-10 21:05:03.435 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6372

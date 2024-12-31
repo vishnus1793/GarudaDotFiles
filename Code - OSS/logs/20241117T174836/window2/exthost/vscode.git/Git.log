@@ -1,0 +1,39 @@
+2024-11-17 18:34:25.526 [info] [main] Log level: Info
+2024-11-17 18:34:25.526 [info] [main] Validating found git in: "git"
+2024-11-17 18:34:25.526 [info] [main] Using git "2.47.0" from "git"
+2024-11-17 18:34:25.526 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-17 18:34:25.526 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-17 18:34:25.526 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-11-17 18:34:25.526 [info] [Model][openRepository] Opened repository: /home/vishnu
+2024-11-17 18:34:25.526 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-17 18:34:25.526 [info] > git config --get commit.template [6ms]
+2024-11-17 18:34:25.527 [info] > git rev-parse --show-toplevel [10ms]
+2024-11-17 18:34:25.527 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-17 18:34:25.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dotfiles-garuda-hyprland refs/remotes/dotfiles-garuda-hyprland [14ms]
+2024-11-17 18:34:25.564 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2024-11-17 18:34:26.017 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-17 18:34:26.161 [info] > git status -z -uall [617ms] (cancelled)
+2024-11-17 18:34:26.161 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-17 18:34:28.254 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-17 18:34:30.654 [info] > git show --textconv :Videos/Battery/battery/src/App.js [5ms]
+2024-11-17 18:34:30.655 [info] > git ls-files --stage -- /home/vishnu/Videos/Battery/battery/src/App.js [1ms]
+2024-11-17 18:37:19.712 [info] > git show --textconv :Videos/Battery/battery/src/App.css [5ms]
+2024-11-17 18:37:19.713 [info] > git ls-files --stage -- /home/vishnu/Videos/Battery/battery/src/App.css [2ms]
+2024-11-17 18:39:24.512 [info] > git show --textconv :Videos/Battery/battery/src/App.js [7ms]
+2024-11-17 18:39:24.513 [info] > git ls-files --stage -- /home/vishnu/Videos/Battery/battery/src/App.js [2ms]
+2024-11-17 18:42:41.443 [info] > git show --textconv :Videos/Battery/battery/server.js [5ms]
+2024-11-17 18:42:41.444 [info] > git ls-files --stage -- /home/vishnu/Videos/Battery/battery/server.js [1ms]
+2024-11-17 18:42:41.690 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-17 18:43:54.867 [info] > git show --textconv :Videos/Battery/battery/src/App.js [5ms]
+2024-11-17 18:43:54.868 [info] > git ls-files --stage -- /home/vishnu/Videos/Battery/battery/src/App.js [1ms]
+2024-11-17 18:45:48.385 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-17 18:48:49.826 [info] > git show --textconv :Videos/Battery/battery/server.js [6ms]
+2024-11-17 18:48:49.827 [info] > git ls-files --stage -- /home/vishnu/Videos/Battery/battery/server.js [1ms]
+2024-11-17 18:48:50.745 [info] > git show --textconv :Videos/Battery/battery/src/App.css [9ms]
+2024-11-17 18:48:50.746 [info] > git ls-files --stage -- /home/vishnu/Videos/Battery/battery/src/App.css [2ms]
+2024-11-17 18:48:51.848 [info] > git show --textconv :Videos/Battery/battery/server.js [6ms]
+2024-11-17 18:48:51.849 [info] > git ls-files --stage -- /home/vishnu/Videos/Battery/battery/server.js [1ms]
+2024-11-17 18:49:15.624 [info] > git show --textconv :Videos/Battery/battery/src/App.js [5ms]
+2024-11-17 18:49:15.625 [info] > git ls-files --stage -- /home/vishnu/Videos/Battery/battery/src/App.js [2ms]
+2024-11-17 18:50:00.335 [info] > git show --textconv :Videos/Battery/battery/server.js [5ms]
+2024-11-17 18:50:00.335 [info] > git ls-files --stage -- /home/vishnu/Videos/Battery/battery/server.js [1ms]

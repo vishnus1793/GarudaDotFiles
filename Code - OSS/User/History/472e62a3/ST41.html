@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Information</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 600px; margin: auto; text-align: center; }
+        h1 { color: #333; }
+        .info { margin: 20px 0; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        .feature-importances { display: flex; flex-wrap: wrap; justify-content: center; }
+        .feature { margin: 5px; padding: 8px; background-color: #e0e0e0; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Model Information</h1>
+        <div id="model-info" class="info">
+            <p><strong>Number of Nodes:</strong> <span id="num-nodes"></span></p>
+            <p><strong>Depth:</strong> <span id="depth"></span></p>
+            <div><strong>Feature Importances:</strong></div>
+            <div id="feature-importances" class="feature-importances"></div>
+        </div>
+    </div>
+
+    <script>
+        // Fetch model info from the backend and display it
+        async function fetchModelInfo() {
+            try {
+                const response = await fetch("/model-info");
+                const data = await response.json();
+
+                document.getElementById("num-nodes").textContent = data.numNodes;
+                document.getElementById("depth").textContent = data.depth;
+
+                const featureImportances = data.featureImportances;
+                const featureContainer = document.getElementById("feature-importances");
+
+                featureImportances.forEach((importance, index) => {
+                    const feature = document.createElement("div");
+                    feature.className = "feature";
+                    feature.textContent = `Feature ${index + 1}: ${importance.toFixed(4)}`;
+                    featureContainer.appendChild(feature);
+                });
+            } catch (error) {
+                console.error("Error fetching model info:", error);
+            }
+        }
+
+        // Call the function on page load
+        window.onload = fetchModelInfo;
+    </script>
+</body>
+</html>

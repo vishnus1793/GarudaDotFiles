@@ -1,0 +1,41 @@
+/* App.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.app-header {
+  background-color: #4a90e2;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+.password-manager-container {
+  padding: 20px;
+}

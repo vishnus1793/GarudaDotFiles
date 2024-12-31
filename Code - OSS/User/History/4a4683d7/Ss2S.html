@@ -1,0 +1,12 @@
+<html>
+<body>
+    <h2>Battery Status</h2>
+    <div id="batteryStatus">Connecting...</div>
+    <script type="text/javascript">
+        var ws = new WebSocket('ws://192.168.36.122:8080');
+        ws.onmessage = function(event) {
+            document.getElementById('batteryStatus').innerText = event.data;
+        }
+    </script>
+</body>
+</html>
